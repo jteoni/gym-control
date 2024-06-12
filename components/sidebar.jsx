@@ -35,7 +35,7 @@ const links = [
     {
         icon: <IoMdSettings />,
         name: "settings",
-        path: "/invoices",
+        path: "/settings",
     },
 ];
 
@@ -44,7 +44,7 @@ const Sidebar = () => {
 
     return (
         <div className="flex flex-col">
-            <div className="py-10 bg-accent text-center">
+            <div className="py-10 bg-contrast text-center">
                 <Link href="/">
                     <h2 className="text-4xl font-semibold">Gym Control.</h2>
                 </Link>
@@ -59,8 +59,8 @@ const Sidebar = () => {
                                     key={index}
                                     className={`${
                                         link.path === pathname &&
-                                        "flex items-center [&>*]:my-auto text-accent border-b-[1px]"
-                                    } flex items-center capitalize font-medium text-textColor hover:text-white transition-all pt-10`}
+                                        "flex items-center [&>*]:my-auto border-b-[1px]"
+                                    } flex items-center capitalize font-medium text-accent hover:text-white transition-all pt-10`}
                                 >
                                     <div className="mr-3">{link.icon}</div>
                                     <div>{link.name}</div>

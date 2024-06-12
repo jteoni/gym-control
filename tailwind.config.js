@@ -29,13 +29,11 @@ module.exports = {
             colors: {
                 primary: "#1e1e1e",
                 accent: {
-                    DEFAULT: "#ea2e49",
+                    DEFAULT: "#919191",
                     hover: "#00e187",
                 },
                 secondary: "#F2F2F2",
-                textColor: "#919191",
-                error: "#F93232",
-                disclaimer: "#CFCFCF",
+                contrast: "#F93232",
             },
             keyframes: {
                 "accordion-down": {
