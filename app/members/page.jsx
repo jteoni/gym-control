@@ -43,7 +43,8 @@ const mockMembers = [
 const Clients = () => {
     return (
         <>
-            <div className="flex">
+            <h3 className="pb-10">Members</h3>
+            <div className="flex pb-10">
                 <Card>
                     <CardContent>
                         <div className="text-center">Total of members</div>
