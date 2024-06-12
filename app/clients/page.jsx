@@ -43,24 +43,18 @@ const mockMembers = [
 const Clients = () => {
     return (
         <>
-            <div className="flex flex-col">
-                <div className="items-center">
-                    <Card>
-                        <CardContent>
-                            <div className="items-center gap-4">
-                                total of member
-                            </div>
-                        </CardContent>
-                    </Card>
+            <div className="flex">
+                <Card>
+                    <CardContent>
+                        <div className="text-center">Total of members</div>
+                    </CardContent>
+                </Card>
 
-                    <Card>
-                        <CardContent>
-                            <div className="grid w-full items-center gap-4">
-                                add new membber
-                            </div>
-                        </CardContent>
-                    </Card>
-                </div>
+                <Card>
+                    <CardContent>
+                        <div className="text-center">Register new member</div>
+                    </CardContent>
+                </Card>
             </div>
             <Table>
                 <TableHeader>
