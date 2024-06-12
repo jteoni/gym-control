@@ -19,11 +19,10 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={inter.variable}>
-                <Header />
                 <div className="min-h-screen">
                     <div className="flex">
                         <Sidebar />
-                        <div className="flex flex-col flex-grow w-screen md:w-full min-h-screen bg-secondary">
+                        <div className="p-10 flex flex-col flex-grow w-screen md:w-full min-h-screen bg-secondary">
                             {children}
                         </div>
                     </div>

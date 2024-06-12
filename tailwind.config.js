@@ -33,7 +33,9 @@ module.exports = {
                     hover: "#00e187",
                 },
                 secondary: "#F2F2F2",
-                text: "#061D33",
+                textColor: "#061D33",
+                error: "#F93232",
+                disclaimer: "#CFCFCF",
             },
             keyframes: {
                 "accordion-down": {
