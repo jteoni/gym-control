@@ -23,19 +23,17 @@ module.exports = {
             xl: "1200px",
         },
         fontFamily: {
-            primary: "var(--font-inter)",
+            primary: "var(--font-jetbrainsMono)",
         },
         extend: {
             colors: {
-                primary: "#061D33",
+                primary: "#1e1e1e",
                 accent: {
-                    DEFAULT: "#FFCF74",
+                    DEFAULT: "#919191",
                     hover: "#00e187",
                 },
                 secondary: "#F2F2F2",
-                textColor: "#061D33",
-                error: "#F93232",
-                disclaimer: "#CFCFCF",
+                contrast: "#F93232",
             },
             keyframes: {
                 "accordion-down": {

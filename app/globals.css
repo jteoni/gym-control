@@ -13,10 +13,10 @@
         @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
     }
     h3 {
-        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold text-textColor;
+        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold text-primary;
     }
     .desclaimer {
-        @apply text-[16px] xl:text-[16px] leading-[1.1] font-semibold text-textColor;
+        @apply text-[16px] xl:text-[16px] leading-[1.1] font-semibold text-primary;
     }
     .text-outline {
         -webkit-text-stroke: 1px #ffffff;
