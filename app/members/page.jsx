@@ -6,10 +6,11 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
+import { Card, CardContent } from "@/components/ui/card";
 
 import { FaUserEdit } from "react-icons/fa";
-
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const mockMembers = [
     {
@@ -45,19 +46,22 @@ const mockMembers = [
 const Clients = () => {
     return (
         <>
-            <h3 className="pb-10">Members</h3>
-            <div className="flex pb-10">
-                <Card>
-                    <CardContent>
-                        <div className="text-center">Total of members</div>
-                    </CardContent>
-                </Card>
-
-                <Card>
-                    <CardContent>
-                        <div className="text-center">Register new member</div>
-                    </CardContent>
-                </Card>
+            <div className="flex justify-between items-center pb-10">
+                <div>
+                    <h3>Members</h3>
+                    <p className="desclaimer text-disclaimer font-normal">
+                        Total of members: {mockMembers.length}
+                    </p>
+                </div>
+                <div>
+                    <Button>
+                        <Link href="/register-member">
+                            <div className="text-center">
+                                Register new member
+                            </div>
+                        </Link>
+                    </Button>
+                </div>
             </div>
             <Table>
                 <TableHeader>
